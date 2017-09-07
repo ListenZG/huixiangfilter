@@ -1,0 +1,7 @@
+<view class="container">
+  <button type='{{button_type}}' bindtap="startBle">{{button_text}}</button>
+  <button bindtap="checkCurrentDevice">查看已经连接蓝牙设备</button>
+  <button bindtap="checkCharacterict">查看特征值</button>
+
+   <button bindtap="electricity_control">电量值</button>
+</view>

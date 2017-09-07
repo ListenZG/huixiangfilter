@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/MQTT/mqtt",
+    "pages/BLEConnection/ble",
+    "pages/index/index",
+    "pages/second/second",
+    "pages/shop/index"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}

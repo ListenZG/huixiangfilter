@@ -1,0 +1,27 @@
+<!--mqtt.wxml-->
+ <radio value="value" checked="{{isConnection}}" />{{isConnection?'已连接':'未连接'}}
+<input type="box" />
+<input placeholder="请输入发送信息" bindinput="bindKeyInput" />
+
+<button type="default" bindtap="publishMessage" data-senddata="{{inputValue}}">sender</button>
+<view class="classname">
+收到数据：
+<ul>
+
+  <li>6666</li>
+  <li class='revDataLi' wx:for='{{list}}' wx:for-index="idx" wx:for-item="itemName" wx:key="{{idx}}"><view >{{itemName}}</view></li>
+</ul>
+
+<template name="cell" >
+ <view class="classname">{{name}}template</view>
+</template>
+
+<template is="cell" data="{{...item}}"></template>
+
+</view>
+
+<button bindtap="readBleCilck">redBlue</button>
+
+<text>{{bleInfo}}</text>
+
+<button bindtap="writeValue"> write Value</button>

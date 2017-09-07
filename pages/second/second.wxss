@@ -1,0 +1,251 @@
+page{
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+}
+image{
+  width: 100%;
+  display: block;
+  ime-mode: 'widthFix';
+   /*margin: 0 auto;
+   text-align: center;*/
+  position: relative;
+  /*display: flex;*/
+}
+
+.head-waterBefore{
+   top: 20px;
+   width: 150px;
+  left: 50%;
+  margin-left: -75px;
+ text-align: center;
+ line-height: 20px;
+  color: white;
+  height: 20px;
+
+  font-size: 15px;
+  position: absolute;
+
+}
+ .head-content{
+  top:50px;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  height: 100px;
+  /*border-radius: 5px;
+  border: 1px solid #e0e0e0;*/
+  position: absolute;
+  
+}
+.head-content_bottom{
+
+  font-size: 15px;
+  color: whitesmoke;
+   text-align: center;
+   margin-bottom: 10px;
+
+  
+}
+.head-content_top{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+
+.middlePain{
+  margin: -60px 18px 20px 18px;
+
+  background-color: white;
+
+  height: 258px;
+  border-radius: 10px;
+
+  box-shadow:2px 2px 3px #aaaaaa;
+  background: white;
+  position: relative;
+}
+.middle-top{
+
+  border-radius: 5px;
+  margin-top: -20px;
+  background: gray;
+  position: relative;
+
+}
+
+.img{
+position: absolute;
+width: 80px;
+height: 80px;
+background: #0197ea;
+top:-40px;
+border-radius: 40px;
+left: 50%;
+margin-left: -40px;
+border: 1px solid #e0e0e0;
+box-shadow:1px 1px 1px #aaaaaa;
+}
+.img text{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 80px;
+  bottom: 20px;
+  /*background: greenyellow;*/
+  position: absolute;
+
+}
+.middle-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 248px;
+  /*background: grey;*/
+  /*position: relative;*/
+
+}
+
+.leftMidRig{
+  flex-grow:1;
+  text-align: center;
+  margin: 40px auto;
+  padding: 40px 0 40px 0;
+  /*background: gainsboro;*/
+
+
+}
+.middle-botton-tip{
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+.middle-line{
+  border-left: 1px solid dodgerblue;
+  border-right: 1px solid dodgerblue;
+}
+
+.footerPain-second{
+
+  margin: 18px;
+
+  background-color: white;
+  /*width: 90%;*/
+  height: 205px;
+  border-radius: 10px;
+
+  box-shadow:2px 2px 3px #aaaaaa;
+  position: relative;
+  flex-direction: column;
+ 
+ 
+}
+
+
+.footerPain{
+  margin: 18px;
+  background-color: white;
+  /*width: 90%;*/
+  height: 205px;
+  border-radius: 10px;
+
+  box-shadow:2px 2px 3px #aaaaaa;
+  position: relative;
+  flex-direction: column;
+ 
+ 
+}
+.waterTitle{
+ font-size: 20px;
+  line-height: 80px;
+  text-align: center;
+  height: 80px;
+ color: dodgerblue;
+
+}
+.waterCount{
+
+  line-height: 100px;
+  text-align: center;
+  height: 100px;
+  color: #0197ea;
+  font-size: 45px;
+  margin-top: -20px;
+
+
+}
+.middleTextTitle{
+   color: #0197ea;
+  font-size: 18px;
+  
+
+}
+.TDS{
+  font-size: 12px;
+
+  
+}
+.fontfamily{
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.bugSome{
+  /*background:gray;*/
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.7;
+
+
+}
+.title {
+  height: 20px;
+  line-height: 20px;
+  
+  /*background: green;*/
+	text-align: center;
+	/*position: absolute;*/
+	margin-top: 50px;
+	margin-bottom: 20rpx;
+}
+.canvas{
+  /*position: absolute;*/
+
+  /*background: lightgray;*/
+  width: 100%-36px;
+  height: 250px;
+  /*text-align: center;*/
+  /*background: gray;*/
+
+}
+.bugBtn{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.pie{
+  /*background: grey;*/
+  height: 200px;
+}
+.title-second{
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.footerPain{
+  margin: 18px;
+  background-color: white;
+  /*width: 90%;*/
+  height: 235px;
+  border-radius: 10px;
+
+  box-shadow:2px 2px 3px #aaaaaa;
+  position: relative;
+  flex-direction: column;
+ 
+ 
+}

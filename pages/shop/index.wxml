@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!--1px = 750/320 = 2.34rpx;-->
+<view class="container">
+
+    <view class="goods-container">
+        <view class="goods-box" wx:for-items="{{[1,2,3,4,5,6]}}" wx:key="{{index}}" bindtap="toDetailsTap" data-id="{{item.id}}">
+           <view class="img-box">
+              <image src="../images/574eab6fN978fe260.jpg" class="image"/>
+           </view>
+           <view class="goods-title">
+     
+           {{"爱惠浦（Everpure）I2000（2）净水器 净水机 厨房餐饮用水过滤器"}}</view>
+           <view class="goods-price">¥ {{899}}</view>
+        </view>
+    </view>
+    <view hidden="{{loadingMoreHidden ? true : false}}" class="no-more-goods">没有更多啦</view>
+</view>

@@ -1,0 +1,20 @@
+
+
+<view class="container">
+
+
+<block wx:for="{{devices}}" wx:key="unquie" > 
+
+  <view class="item" bindtap="connectBleDevice" data-device="{{item}}">
+    <view class="title">{{item.name}}</view>
+    <view class="mesure">{{item.RSSI}}</view>
+  </view>
+
+</block>
+
+
+<view class="item" wx:if="{{!devices.length}}">
+ <view class="title">无蓝牙设备</view>
+</view>
+
+</view>

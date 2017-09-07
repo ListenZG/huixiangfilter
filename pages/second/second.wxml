@@ -1,0 +1,42 @@
+<view class="containers123">
+
+<image src="../images/bg.png" >
+
+     <view class="head-waterBefore fontfamily">自来水平均水质</view>
+     <view class="head-content">
+       <view class="head-content_top">002
+          <text class="TDS">TDS</text>
+       </view>
+       <view class="head-content_bottom fontfamily">过滤后水质可饮用</view>
+     </view>
+
+</image>
+
+ <view class="middlePain">
+
+   <view class="middle-bottom">
+       <view class="title">
+	     	{{chartTitle}}
+	      </view>
+      <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+   </view>
+ </view>
+
+<view class="footerPain">
+   <view class="title-second">滤芯净化情况</view>
+
+   <canvas canvas-id="pieCanvas" class="canvas pie" ></canvas>
+
+   
+</view>
+  <view class="footerPain-second">
+    <view class="waterTitle fontfamily">用水详情</view>
+
+    <view class="waterCount">1000<text class="TDS">L</text></view>
+    
+ </view>
+
+
+<!--<image src="../images/hxCart.png" class="bugSome" bindtap="shopClick"></image>-->
+<button class="bugBtn" type="warn" bindtap="shopClick">立即购买</button>
+</view>

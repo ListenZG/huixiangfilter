@@ -1,0 +1,10 @@
+/* mqtt.wxss */
+ul{
+  background: rebeccapurple;
+}
+.revDataLi{
+  width: 100%;
+  height: 44px;
+  background: rebeccapurple;
+  background-color: red;
+}
